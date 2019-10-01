@@ -1,0 +1,23 @@
+.box-container{
+	width: 100%;
+    display: flex;
+}
+
+.drops-container{
+	display: flex;
+	width: 200px;
+	justify-content: center;
+}
+
+.logo-container{
+    display: inline-block;
+}
+
+.drop-1{
+
+	margin-right: 50px
+}
+
+.drop-2{
+	margin-left: 50px
+}

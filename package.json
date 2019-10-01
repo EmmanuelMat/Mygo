@@ -1,0 +1,36 @@
+{
+  "name": "go",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "mdbreact": "^4.14.0",
+    "react": "^16.8.6",
+    "react-bootstrap-dropdown-menu": "^1.1.15",
+    "react-dom": "^16.8.6",
+    "react-particles-js": "^2.6.0",
+    "react-scripts": "2.1.8",
+    "react-select": "^3.0.4",
+    "react-social-login-buttons": "^2.3.1",
+    "tachyon": "0.0.11",
+    "tachyons": "^4.11.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
+  }
+}

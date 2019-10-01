@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+    color:#fff;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.barber{
+  display: flex;
+/*  background-image: url("http://vietcetera.com/wp-content/uploads/2017/07/Featured-2.jpg");
+*/align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  color:#fff;
+
+  
+  
+}
+
+
+.salon{
+  display: flex;
+  background-image: url("http://www.monalisaparlour.com/images/slider-1.JPG");
+  background-repeat: no-repeat;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+
+
+}
+
+  .Modal {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color: black;
+  }
+
+.particles{
+  position: fixed;
+  top: 0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}

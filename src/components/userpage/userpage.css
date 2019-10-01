@@ -1,0 +1,70 @@
+.upage{
+	width: 100%;
+}
+
+
+.nav{
+	width: 100%;
+}
+.user{
+	display: flex;
+	width: 100%;
+	margin-right: 20px;
+	justify-content: flex-end;
+}
+
+.selection{
+	display: flex;
+	width: 100%;
+
+}
+
+.selection-box{
+	display: flex;
+	width: 75%;
+}
+.selection-box li:hover{
+    color: #db0000;
+    cursor: pointer;
+}
+
+.selection-box li{
+	transition: 1.5s;
+}
+ 
+.selected{
+	color:#db0000;
+}
+
+.coments-box input{
+	border-radius: 5px;
+	width: 22em;
+	margin-left: 20px;
+}
+
+.coments-box{
+	margin-top: 10px;
+	display: flex;
+
+}
+
+.descrition{
+	border: 2px solid white;
+	width: 40%;
+	height: 300px;
+	margin-left: 450px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+.type{
+	list-style: none;
+	font-size: 20px;
+	transition: 1s;
+	margin: 10px;
+
+}
+
+.none{
+	display: none;
+}

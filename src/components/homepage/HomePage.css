@@ -1,0 +1,233 @@
+.container{
+	display: inline;
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.buttons{
+	margin-top: 0;
+}
+
+.turns-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.tab-box{
+	display: flex
+
+}
+
+.tab{
+	display: in;
+	width: 8em;
+	border: solid 2px  white;
+	border-radius: 4px;
+	border-left: 0px;
+	border-bottom: 0; 
+}
+
+.tab:hover{
+	box-shadow: 0px 0px 10px white;
+	cursor:pointer
+}
+
+.tab-bttons{
+	height: 35px;
+}
+
+.tab-selected{
+	display: flex;
+	width: 8em;
+	border: solid 2px  white;
+	border-radius: 4px;
+	border-left: 0px;
+	border-bottom: 0;
+	box-shadow: 0px 0px 10px white;
+
+
+}
+.coments{ 
+	display: flex;
+
+
+}
+.coments input{
+	border-radius: 10px;
+	width: 80%;
+	height:30px;
+}
+
+.coments p{
+	margin: 0;
+	margin-right: 10px;
+	font-size: 2em;
+    
+
+}
+
+.toshow{
+	display: table-column;
+}
+.home{
+	display: flex;
+	width: 100%;
+	height: 80%;
+	justify-content: center;
+	margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+/*
+.turns{
+	border-radius: 10px;
+	border: 2px solid white;
+    height: 65%;
+    margin: 20px;
+    margin-bottom: 0;
+}*/
+
+
+.coments{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 70%;
+    margin: 20px;	
+    margin-bottom: 0;
+}
+
+.addturns{
+	display: flex;
+	margin: 0;
+	padding: 0; 
+	
+}
+
+.coments div{
+	margin-top: 15px;
+}
+
+.nav{
+	margin-top: 10px;
+	display: flex;
+	height: 20%;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.content{
+	width: 75%;
+	height: 100%;
+
+
+}
+
+.logo{
+    width: 25%;
+    height: 100%;
+
+
+}
+
+.profile{
+	width: 75%;
+
+}
+
+.profile-box{
+	margin-top: 5px;
+	margin-left: 20px
+
+}
+
+.turn{
+	position: static;
+	margin-top: 10px;
+	margin-left: 20px;
+	list-style: none;
+	font-size: 20px;
+	transition: 1s;
+
+}
+
+.turn:hover{
+	cursor: pointer;
+	font-size: 22px;
+}
+
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#44c767;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 9px;
+	text-decoration:none;
+	margin-left: 5px;	
+	margin-right: 5px;
+
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton-2 {
+	background-color:#ff0505;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	borderselected:1px solid #db0000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ff0505;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 9px;
+	text-decoration:none;
+	margin-right: 5px;
+}
+
+.myButton-2:hover {
+	background-color:#db0000;
+}
+.myButton-2:active {
+	position:relative;
+	top:1px;
+}
+
+.notshow{
+	display: none;
+}
+
+.input{
+	margin-right:10px;
+}
+
+.selected-turn{
+ text-shadow: 2px 2px #db0000;
+
+}
+
+
+.buttons{
+	height: 50%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+
+}

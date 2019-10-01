@@ -1,0 +1,33 @@
+.d-box{
+    text-align: center;
+    width: 100px;
+    border: 2px solid white;
+    border-radius:  5px;
+    padding: 5px;
+    transition: 2s;
+}
+
+.d-box:hover{
+   cursor: pointer;
+}
+
+.show{
+    text-align: center;
+    width: 100px;
+    border: 2px solid white;
+    border-top: 0;
+    transition: 2s;
+
+}
+.n-selected{
+    text-align: center;
+    width: 95px;
+    background: #313131;
+    transition: 2s;
+
+}
+.n-selected:hover{
+    background: #000;
+    cursor: pointer;
+
+}
